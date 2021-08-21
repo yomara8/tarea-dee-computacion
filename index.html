@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>REPRODUCTOR</title>
+</head>
+<body>
+	<div class="main cntainer">
+        <header class="menu-container">
+            <div class="logo-container">
+                <img src="imagenes/icono.png" alt="rumeal">
+                <div>PRACTICA - Ruth Shomara</div>
+            </div>
+            <nav class="main-menu">
+                <img src="imagenes/menu.png" alt="">
+                <ul id="menu-list" class="list-menu">
+                    <li>
+                        <a href="#">
+                            <img src="imagenes/perfil.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Perfil de usuario</a>
+                    </li>
+                    <li>
+                        <a href="#">Configuracion</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="playing-controls-container">
+                <div class="cover-container">
+                    <div class="cover-image">
+                        <img id="image" src="imagenes/blackbear.png" alt="">
+                    </div>
+                    <img src="" alt="">
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar">
+                        <samp class="line"></samp>
+                        <samp class="circle"></samp>
+                    </div>
+                </div>
+                <div class="buttons-container">
+                    <audio id="audio" src="musica/blackbear - smile again Official Music Video _160k.mp3"></audio>
+                    <button id="pause">
+                        <img src="imagenes/btn-pausa.png" alt="">
+                    </button>
+                    <button id="play">
+                        <img src="imagenes/btn-play.png" alt="">
+                    </button>
+                    <button id="reinicio">
+                        <img src="imagenes/btn-reini.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="data-container">
+                <div class="title-song">Smile again</div>
+                <div class="artist-song">Blackbear</div>
+            </div>
+        </main>
+
+        <nav class="nav-song">
+            <div class="nav_home_rotate_nav">
+                <img src="imagenes/hogar.png" alt="">
+            </div>
+            <div class="nav_search_rotate_nav">
+                <img src="imagenes/lupa.png" alt="">
+            </div>
+            <div class="nav_playlist_rotate_nav">
+                <img src="imagenes/lista-de-reproduccion.png" alt="">
+            </div>
+            <div class="nav_favoritos_rotate_nav">
+                <img src="imagenes/favorito.png" alt="">
+            </div>
+        </nav>
+    </div>
+	<script src="scrip.js"></script>
+</body>
+</html>
